@@ -1,6 +1,7 @@
 <?php
     require 'the_side_bar.php';
     require 'ancien/connexion.php';
+    /* reparcourir les informations*/
     $sth = $pdo->prepare("select * from programmes");
     $sth->execute();
 
